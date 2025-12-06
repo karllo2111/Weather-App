@@ -41,19 +41,17 @@ export default function SearchBar({ onSelectCity }: Props) {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Cari kota..."
-                // Input modern: background transparan, border tipis, padding lebih besar
+            
                 className="w-full px-5 py-3 rounded-full bg-white/20 border border-white/30 backdrop-blur-sm text-white placeholder-white/70 outline-none focus:ring-2 focus:ring-white transition duration-300"
             />
 
             {(results.length > 0 || loading) && (
-                // Dropdown hasil: Latar belakang putih/terang dengan shadow
                 <div className="absolute mt-2 w-full bg-white text-gray-800 rounded-xl shadow-2xl overflow-hidden z-20 max-h-60 overflow-y-auto">
                     {loading && <div className="px-4 py-3 text-center font-medium text-blue-600">Mencari...</div>}
                     {results.map(city => (
                         <div
                             key={`${city.latitude}-${city.longitude}`}
                             onClick={() => chooseCity(city)}
-                            // Hover yang lebih jelas
                             className="px-4 py-3 hover:bg-blue-50 cursor-pointer border-b border-gray-100 last:border-b-0 transition duration-150"
                         >
                             <span className="font-semibold">{city.name}</span>, {city.country || ""}

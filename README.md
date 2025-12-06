@@ -1,77 +1,72 @@
+Weather App 🌤️
 
----
 
-# Weather App 🌤️
 
-[![Website](https://img.shields.io/badge/Website-Live-brightgreen)](https://weather-app-sigma-inky.vercel.app/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-Live Demo: [https://weather-app-sigma-inky.vercel.app/](https://weather-app-sigma-inky.vercel.app/)
 
----
 
-## Deskripsi
 
-Aplikasi ini menampilkan informasi cuaca terkini berdasarkan kota yang dipilih. Terdapat ikon cuaca interaktif dan data seperti suhu, kelembapan, dan kondisi cuaca saat ini. Tampilan aplikasi responsif untuk desktop maupun mobile.
 
----
 
-## Fitur
 
-* 🔍 Cari cuaca berdasarkan nama kota
-* 🌡️ Menampilkan kondisi cuaca saat ini (suhu, kelembapan, dll.)
-* 🌤️ Ikon cuaca interaktif sesuai kondisi
-* 🌍 Responsif untuk desktop dan mobile
 
----
 
-## Teknologi
+Live Demo: https://weather-app-sigma-inky.vercel.app/
 
-* Next.js
-* TypeScript
-* Vercel
-* API Cuaca
+Description
 
----
+This application displays real-time weather information based on the selected city. It includes interactive weather icons and shows data such as temperature and current conditions. The user interface is fully responsive for desktop and mobile devices.
 
-## Instalasi
+Features
 
-```bash
+🔍 Search weather by city name
+
+🌡️ Display current weather conditions (temperature only, humidity removed)
+
+🌤️ Interactive weather icons
+
+🌍 Fully responsive layout
+
+Technologies
+
+Next.js
+
+TypeScript
+
+Vercel
+
+Weather API
+
+Installation
 git clone https://github.com/username/weather-app.git
 cd weather-app
 npm install
-# atau
+# or
 yarn install
-# atau
+# or
 pnpm install
-```
 
-Menjalankan development server:
 
-```bash
+Run the development server:
+
 npm run dev
-# atau
+# or
 yarn dev
-# atau
+# or
 pnpm dev
-# atau
+# or
 bun dev
-```
 
-Buka [http://localhost:3000](http://localhost:3000) di browser.
-Mulai mengedit halaman di `app/page.tsx`. Halaman akan otomatis diperbarui saat diedit.
 
----
+Open http://localhost:3000
+ in your browser.
+Start editing app/page.tsx. The page updates automatically.
 
-## Deployment
+Deployment
 
-Aplikasi ini sudah dideploy di Vercel: [https://weather-app-sigma-inky.vercel.app/](https://weather-app-sigma-inky.vercel.app/)
+The application is deployed on Vercel:
+https://weather-app-sigma-inky.vercel.app/
 
----
+License
 
-## Lisensi
-
-MIT License © 2025 – [Karurooooo](https://github.com/karllo2111)
-
----
-
+MIT License © 2025 – Karurooooo

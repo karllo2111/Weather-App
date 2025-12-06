@@ -23,7 +23,6 @@ export default function WeatherApp({ initialWeather }: { initialWeather: Weather
     }, [selectedCity]);
 
     return (
-     
         <div className="min-h-screen w-full overflow-x-hidden bg-linear-to-br from-blue-700 to-indigo-900 text-white p-4 md:p-8">
             
             {/* Header / Search Bar */}
