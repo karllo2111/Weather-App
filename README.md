@@ -5,10 +5,14 @@
 
 [![Website](https://img.shields.io/badge/Website-Live-brightgreen)](https://weather-app-sigma-inky.vercel.app/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Framework-Next.js-black?logo=next.js)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue?logo=typescript)](https://www.typescriptlang.org)
 
 Live Demo: [https://weather-app-sigma-inky.vercel.app/](https://weather-app-sigma-inky.vercel.app/)
+
+---
+
+## Deskripsi
+
+Aplikasi ini menampilkan informasi cuaca terkini berdasarkan kota yang dipilih. Terdapat ikon cuaca interaktif dan data seperti suhu, kelembapan, dan kondisi cuaca saat ini. Tampilan aplikasi responsif untuk desktop maupun mobile.
 
 ---
 
@@ -17,17 +21,16 @@ Live Demo: [https://weather-app-sigma-inky.vercel.app/](https://weather-app-sigm
 * 🔍 Cari cuaca berdasarkan nama kota
 * 🌡️ Menampilkan kondisi cuaca saat ini (suhu, kelembapan, dll.)
 * 🌤️ Ikon cuaca interaktif sesuai kondisi
-* ⚡ Performa tinggi dengan optimasi Next.js
 * 🌍 Responsif untuk desktop dan mobile
 
 ---
 
 ## Teknologi
 
-* [Next.js](https://nextjs.org)
-* [TypeScript](https://www.typescriptlang.org)
-* [Vercel](https://vercel.com)
-* [API Cuaca](https://open-meteo.com/)
+* Next.js
+* TypeScript
+* Vercel
+* API Cuaca
 
 ---
 
@@ -60,23 +63,9 @@ Mulai mengedit halaman di `app/page.tsx`. Halaman akan otomatis diperbarui saat 
 
 ---
 
-## Dokumentasi
-
-* [Next.js Documentation](https://nextjs.org/docs)
-* [Learn Next.js](https://nextjs.org/learn)
-* [Next.js GitHub Repository](https://github.com/vercel/next.js)
-
----
-
 ## Deployment
 
-Deploy di Vercel:
-
-1. Push repository ke GitHub
-2. Buat proyek baru di [Vercel](https://vercel.com/new) dan hubungkan repository
-3. Vercel otomatis membangun dan mendepoy aplikasi
-
-Dokumentasi lengkap: [Deploy Next.js](https://nextjs.org/docs/app/building-your-application/deploying)
+Aplikasi ini sudah dideploy di Vercel: [https://weather-app-sigma-inky.vercel.app/](https://weather-app-sigma-inky.vercel.app/)
 
 ---
 
@@ -85,3 +74,4 @@ Dokumentasi lengkap: [Deploy Next.js](https://nextjs.org/docs/app/building-your-
 MIT License © 2025 – [Your Name](https://github.com/username)
 
 ---
+
