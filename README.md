@@ -71,7 +71,7 @@ Aplikasi ini sudah dideploy di Vercel: [https://weather-app-sigma-inky.vercel.ap
 
 ## Lisensi
 
-MIT License © 2025 – [Your Name](https://github.com/username)
+MIT License © 2025 – [Karurooooo](https://github.com/karllo2111)
 
 ---
 
