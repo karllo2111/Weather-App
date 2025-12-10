@@ -70,8 +70,3 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## License
-
-MIT License © 2025 – [Karurooooo](https://github.com/karllo2111)
-
----
