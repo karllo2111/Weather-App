@@ -49,7 +49,7 @@ This application displays real-time weather information based on the selected ci
 ## Installation
 
 ```bash
-git clone https://github.com/username/weather-app.git
+git clone https://github.com/karllo2111/weather-app.git
 cd weather-app
 npm install
 ```
